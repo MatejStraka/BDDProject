@@ -17,7 +17,7 @@ public class WikipediaSearchSteps {
 
     @Before
     public void initDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
